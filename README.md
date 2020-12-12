@@ -62,21 +62,6 @@ For cleaning the data we found the following major irregulatiries:
 Kindly refer to the powerpoint presentation for analysis.
 
 
-<b>Feature Engineering & Selection</b>
-For the feature engineering, we created various date time fields to analyze the data on various levels of granularity, create calculated fields such as tips/mile, make new categorical features from continous data, etc.
-
-At the end of this process, we have a total of 48 features.
-
-In order to select the most important features for machine learning model, we used our domain knowledge to select 8 features. 
-The final features selected are:['passenger_count','trip_distance','payment_type','TripStart_dayofweek', 'TripStart_hourofday','PickupBorough','DropoffBorough','Avg Temp']
-
-
-<b>Model Building</b>
-For creating the machine learning model, we selected a simple Linear regression from the SKLearn library.
-For data preprocessing, we used various pipelines and column transformers to create the data flow.
-After training the model, the evaluation metrics we used was RootMeanSquaredError and R2 score which was at 2.07 and 80 respectively.
-
-Having trained the model, we used a pickle file to dump the model and used StreamLit framework to create a UI where users can enter their data to get a fare prediction for their taxi ride. Kindly refer to the TaxiApp.py script for the code.
 
 Finding
 Going into each section by borough by borough we find the following:
@@ -220,6 +205,22 @@ shorter trip to earn what appears to be more then normal.
 
 Our original belief while doing this analysis  was that Mahattan would be the most overcharge but fell within range to the other borough without any major outliners.
 
+
+<b>Feature Engineering & Selection</b>
+For the feature engineering, we created various date time fields to analyze the data on various levels of granularity, create calculated fields such as tips/mile, make new categorical features from continous data, etc.
+
+At the end of this process, we have a total of 48 features.
+
+In order to select the most important features for machine learning model, we used our domain knowledge to select 8 features. 
+The final features selected are:['passenger_count','trip_distance','payment_type','TripStart_dayofweek', 'TripStart_hourofday','PickupBorough','DropoffBorough','Avg Temp']
+
+
+<b>Model Building</b>
+For creating the machine learning model, we selected a simple Linear regression from the SKLearn library.
+For data preprocessing, we used various pipelines and column transformers to create the data flow.
+After training the model, the evaluation metrics we used was RootMeanSquaredError and R2 score which was at 2.07 and 80 respectively.
+
+Having trained the model, we used a pickle file to dump the model and used StreamLit framework to create a UI where users can enter their data to get a fare prediction for their taxi ride. Kindly refer to the TaxiApp.py script for the code.
 
 <b>Conclusion</b>
 Overall, our data analysis has shown that if a taxi driver wants to make the most cash and tips, he/she must do the following:
