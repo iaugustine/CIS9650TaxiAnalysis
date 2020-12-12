@@ -187,7 +187,8 @@ shorter trip to earn what appears to be more then normal.
 
 ![manhattan count](https://user-images.githubusercontent.com/16584326/101990720-29cc6280-3c76-11eb-9375-35b66c8d5307.png)
 
-|PickupZone                       |  DropoffZone                      |  Count|       
+|PickupZone                       |  DropoffZone                      |  Count|
+|---------------------------------|:---------------------------------:|------:|       
 |Upper West Side North  |Upper West Side North    |3504|
 |Yorkville West         |Lenox Hill West         | 3539|
 |Upper East Side North|  East Harlem South       | 3707|
