@@ -63,7 +63,8 @@ For cleaning the data we found the following major irregulatiries:
 3. Weather is another factor that influences tipping behavior. During bad weather, people are usually more generous with taxi tips which is understandable in a sense that taxi becomes relatively a demand during bad weathers.
 ![Weather Factor](https://user-images.githubusercontent.com/75762359/101989926-92fda700-3c71-11eb-9612-e428bb9dffe1.png)
 </b>
-4. The last factor is time. Generally tip during daytime is pretty consistent with lunch hour being the best time. Midnight to morning has relatively lower tips as the taxi activities also decrease significantly during this time.
+4. Time: The last factor is time. Generally tip during daytime is pretty consistent with lunch hour being the best time. Midnight to morning has relatively lower tips as the taxi activities also decrease significantly during this time.
+
 ![Time](https://user-images.githubusercontent.com/75762359/101990132-e8868380-3c72-11eb-81a5-43314e6d5fc5.png)
 
 
