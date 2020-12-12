@@ -179,6 +179,52 @@ Below looks like a other outliner.The rate doesn't match the rest and it only 1.
 PickupZone             DropoffZone              Total          trip 
 Coney Island              Brooklyn Navy Yard      9.680000   23.090000
 
+![Staten_Island count ](https://user-images.githubusercontent.com/16584326/101990604-c5a99e80-3c75-11eb-9ff9-0a0ac3190901.png)
+
+
+Staten island should be avoided based on these number.
+
+![Staten_Island avg](https://user-images.githubusercontent.com/16584326/101990630-ea9e1180-3c75-11eb-85ff-f00098bd7041.png)
+
+
+The amount of request are low but if you are lucky you can grab 
+shorter trip to earn what appears to be more then normal.
+
+
+
+![manhattan count](https://user-images.githubusercontent.com/16584326/101990720-29cc6280-3c76-11eb-9375-35b66c8d5307.png)
+
+PickupZone             DropoffZone          
+Upper West Side North  Upper West Side North    3504
+Yorkville West         Lenox Hill West          3539
+Upper East Side North  East Harlem South        3707
+Upper West Side South  Upper West Side North    3726
+Upper East Side North  Upper East Side South    4006
+Yorkville West         East Harlem South        4074
+Upper East Side South  Upper East Side North    4477
+Upper East Side North  Upper East Side North    4554
+East Harlem South      East Harlem South        4729
+                       East Harlem North        5307
+                       
+                       
+![manhattan mean](https://user-images.githubusercontent.com/16584326/101990769-4bc5e500-3c76-11eb-854c-7ad9cb41fba2.png)
+
+                                               
+PickupZone               DropoffZone              total_amount      trip_distance                      
+Financial District South Washington Heights North     50.065714      13.617143
+Financial District North Inwood                       49.578750      13.850000
+Midtown South            Marble Hill                  43.300000      13.850000
+Washington Heights South Financial District North     45.836667      13.964333
+Hudson Sq                Highbridge Park              48.300000      14.080000
+Financial District South Inwood                       44.525000      14.150000
+World Trade Center       Inwood                       52.560000      14.720000
+Midtown East             Inwood Hill Park             51.300000      16.320000
+Little Italy/NoLiTa      Inwood                       68.033333      17.010000
+Inwood Hill Park         Union Sq                     86.300000      26.620000
+
+Our original belief while doing this analysis  was that Mahattan would be the most overcharge but fell within range to the other borough without any major outliners.
+
+
 <b>Conclusion</b>
 Overall, our data analysis has shown that if a taxi driver wants to make the most cash and tips, he/she must do the following:
 1. Drive in Brooklyn
