@@ -48,6 +48,7 @@ Removed invalid data
 
 
 <b>Data Analysis & Insights</b>
+Kindly refer to the powerpoint presentation for analysis.
 
 
 <b>Feature Engineering & Selection</b>
