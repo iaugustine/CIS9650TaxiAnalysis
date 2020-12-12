@@ -48,8 +48,72 @@ Removed invalid data
 
 
 <b>Data Analysis & Insights</b>
-Kindly refer to the powerpoint presentation for analysis.
+WE first focus the chance that driver can be paid by cash.
 
+The changce of cash payment in Manhattan is 0.3552647403799782
+And following is the top 10 zone to get paid by cash in Manhattan:
+East Harlem North       0.606004
+Central Harlem North    0.605387
+Highbridge Park         0.600000
+Manhattanville          0.574264
+Hamilton Heights        0.569968
+Marble Hill             0.560000
+Central Harlem          0.539134
+Chinatown               0.485114
+East Harlem South       0.484915
+Morningside Heights     0.484615
+
+The changce of cash payment in Bronx is 0.5647916192211342
+And following is the top 10 zone to get paid by cash in Bronx:
+Fordham South                       0.807018
+Mott Haven/Port Morris              0.712150
+Bronx Park                          0.700000
+Melrose South                       0.692308
+West Concourse                      0.680251
+Bedford Park                        0.676768
+Highbridge                          0.655629
+East Concourse/Concourse Village    0.621875
+Morrisania/Melrose                  0.616766
+Mount Hope                          0.608696
+
+The changce of cash payment in Queens is 0.605137766728817
+And following is the top 10 zone to get paid by cash in Queens:
+Forest Park/Highland Park           1.000000
+Saint Michaels Cemetery/Woodside    0.941176
+Long Island City/Hunters Point      0.896220
+Woodside                            0.803235
+Astoria Park                        0.750000
+Long Island City/Queens Plaza       0.741784
+Sunnyside                           0.716279
+Astoria                             0.714286
+Elmhurst                            0.701220
+Old Astoria                         0.693506
+
+The changce of cash payment in Brooklyn is 0.3998106284767428
+And following is the top 10 zone to get paid by cash in Brooklyn:
+Marine Park/Floyd Bennett Field    0.666667
+Brighton Beach                     0.650000
+Manhattan Beach                    0.592593
+Carroll Gardens                    0.588889
+Williamsburg (South Side)          0.568000
+Fort Greene                        0.538647
+Greenpoint                         0.523256
+Bushwick South                     0.506383
+Ocean Parkway South                0.500000
+Clinton Hill                       0.495327
+
+The changce of cash payment in Staten_Island is 0.4880952380952381
+And following is the top 10 zone to get paid by cash in Staten_Island:
+West Brighton                  1.000000
+Stapleton                      1.000000
+South Beach/Dongan Hills       1.000000
+Oakwood                        1.000000
+Heartland Village/Todt Hill    1.000000
+Great Kills                    1.000000
+Westerleigh                    0.800000
+Arrochar/Fort Wadsworth        0.500000
+Charleston/Tottenville         0.470588
+New Dorp/Midland Beach         0.375000
 
 <b>Feature Engineering & Selection</b>
 For the feature engineering, we created various date time fields to analyze the data on various levels of granularity, create calculated fields such as tips/mile, make new categorical features from continous data, etc.
