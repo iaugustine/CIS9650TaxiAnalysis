@@ -48,73 +48,8 @@ Removed invalid data
 
 
 <b>Data Analysis & Insights</b>
+Kindly refer to the powerpoint presentation for analysis.
 
-</b>WE first focus the chance that driver can be paid by cash.</b>
-
-</b>The changce of cash payment in Manhattan is 0.3552647403799782</b>
-And following is the top 10 zone to get paid by cash in Manhattan:
-East Harlem North       0.606004
-Central Harlem North    0.605387
-Highbridge Park         0.600000
-Manhattanville          0.574264
-Hamilton Heights        0.569968
-Marble Hill             0.560000
-Central Harlem          0.539134
-Chinatown               0.485114
-East Harlem South       0.484915
-Morningside Heights     0.484615
-
-The changce of cash payment in Bronx is 0.5647916192211342
-And following is the top 10 zone to get paid by cash in Bronx:
-Fordham South                       0.807018
-Mott Haven/Port Morris              0.712150
-Bronx Park                          0.700000
-Melrose South                       0.692308
-West Concourse                      0.680251
-Bedford Park                        0.676768
-Highbridge                          0.655629
-East Concourse/Concourse Village    0.621875
-Morrisania/Melrose                  0.616766
-Mount Hope                          0.608696
-
-The changce of cash payment in Queens is 0.605137766728817
-And following is the top 10 zone to get paid by cash in Queens:
-Forest Park/Highland Park           1.000000
-Saint Michaels Cemetery/Woodside    0.941176
-Long Island City/Hunters Point      0.896220
-Woodside                            0.803235
-Astoria Park                        0.750000
-Long Island City/Queens Plaza       0.741784
-Sunnyside                           0.716279
-Astoria                             0.714286
-Elmhurst                            0.701220
-Old Astoria                         0.693506
-
-The changce of cash payment in Brooklyn is 0.3998106284767428
-And following is the top 10 zone to get paid by cash in Brooklyn:
-Marine Park/Floyd Bennett Field    0.666667
-Brighton Beach                     0.650000
-Manhattan Beach                    0.592593
-Carroll Gardens                    0.588889
-Williamsburg (South Side)          0.568000
-Fort Greene                        0.538647
-Greenpoint                         0.523256
-Bushwick South                     0.506383
-Ocean Parkway South                0.500000
-Clinton Hill                       0.495327
-
-The changce of cash payment in Staten_Island is 0.4880952380952381
-And following is the top 10 zone to get paid by cash in Staten_Island:
-West Brighton                  1.000000
-Stapleton                      1.000000
-South Beach/Dongan Hills       1.000000
-Oakwood                        1.000000
-Heartland Village/Todt Hill    1.000000
-Great Kills                    1.000000
-Westerleigh                    0.800000
-Arrochar/Fort Wadsworth        0.500000
-Charleston/Tottenville         0.470588
-New Dorp/Midland Beach         0.375000
 
 <b>Feature Engineering & Selection</b>
 For the feature engineering, we created various date time fields to analyze the data on various levels of granularity, create calculated fields such as tips/mile, make new categorical features from continous data, etc.
@@ -131,6 +66,64 @@ For data preprocessing, we used various pipelines and column transformers to cre
 After training the model, the evaluation metrics we used was RootMeanSquaredError and R2 score which was at 2.07 and 80 respectively.
 
 Having trained the model, we used a pickle file to dump the model and used StreamLit framework to create a UI where users can enter their data to get a fare prediction for their taxi ride. Kindly refer to the TaxiApp.py script for the code.
+
+Finding
+Going into each section by borough by borough we find the following:
+
+
+![Bronx count](https://user-images.githubusercontent.com/16584326/101990282-16b89300-3c74-11eb-88dd-38d252ff528b.png)
+
+
+PickupZone                         DropoffZone                         Count
+Mott Haven/Port Morris             Melrose South                         35
+West Concourse                     Highbridge                            37
+Mott Haven/Port Morris             East Tremont                          39
+University Heights/Morris Heights  University Heights/Morris Heights     40
+Melrose South                      Mott Haven/Port Morris                53
+Highbridge                         Highbridge                            70
+East Concourse/Concourse Village   East Concourse/Concourse Village      71
+West Concourse                     West Concourse                        79
+Melrose South                      Melrose South                         87
+Mott Haven/Port Morris             Mott Haven/Port Morris               199
+![bronx avg](https://user-images.githubusercontent.com/16584326/101990274-07394a00-3c74-11eb-8081-becdd1cc2d5e.png)
+
+
+
+PickupZone                         DropoffZone                      
+Mott Haven/Port Morris             Melrose South                         35
+West Concourse                     Highbridge                            37
+Mott Haven/Port Morris             East Tremont                          39
+University Heights/Morris Heights  University Heights/Morris Heights     40
+Melrose South                      Mott Haven/Port Morris                53
+Highbridge                         Highbridge                            70
+East Concourse/Concourse Village   East Concourse/Concourse Village      71
+West Concourse                     West Concourse                        79
+Melrose South                      Melrose South                         87
+Mott Haven/Port Morris             Mott Haven/Port Morris               199
+Name: RatecodeID, dtype: int64
+
+Looking at the following,we see that if driver stay in these area they can monopolies the area and earn the most money by trip by increasing the frequence .
+
+                                                         
+PickupZone                 DropoffZone                         total_amount  trip_distance        
+Spuyten Duyvil/Kingsbridge City Island                           36.800000   12.700000  
+Pelham Bay                 Spuyten Duyvil/Kingsbridge            43.550000   13.013333 
+Van Cortlandt Park         Parkchester                           62.910000   13.040000
+Spuyten Duyvil/Kingsbridge Pelham Bay                            42.383333   13.646667  
+Eastchester                Kingsbridge Heights                   43.383333   13.956667  
+                           Spuyten Duyvil/Kingsbridge            43.050000   14.200000 
+Van Cortlandt Park         Pelham Parkway                        64.170000   14.500000
+West Farms/Bronx River     Bronxdale                             54.300000   15.760000 
+                           Spuyten Duyvil/Kingsbridge            59.850000   19.250000  
+Bronxdale                  University Heights/Morris Heights      8.800000   23.430000
+Compare to the other location,the average for these trip earned more for driving less by picking up on Van Cortlandt Park.
+
+With this,we notice that Bronxdale to University Heights Morris Heights has a average cost of  8.800000  but has 
+a distance of 23.40 miles making you believe that there this trip is low but if you refer to the pie chart you notice the it 
+only 1.3% meaning the quantity of taxi taking that fare it low and this can be seem as an outliner.
+
+
+
 
 <b>Conclusion</b>
 Overall, our data analysis has shown that if a taxi driver wants to make the most cash and tips, he/she must do the following:
