@@ -48,9 +48,10 @@ Removed invalid data
 
 
 <b>Data Analysis & Insights</b>
-WE first focus the chance that driver can be paid by cash.
 
-The changce of cash payment in Manhattan is 0.3552647403799782
+</b>WE first focus the chance that driver can be paid by cash.</b>
+
+</b>The changce of cash payment in Manhattan is 0.3552647403799782</b>
 And following is the top 10 zone to get paid by cash in Manhattan:
 East Harlem North       0.606004
 Central Harlem North    0.605387
