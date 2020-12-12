@@ -84,18 +84,17 @@ Going into each section by borough by borough we find the following:
 ![Bronx count](https://user-images.githubusercontent.com/16584326/101990282-16b89300-3c74-11eb-88dd-38d252ff528b.png)
 
 
-PickupZone                         DropoffZone                         Count
-Mott Haven/Port Morris             Melrose South                         35
-West Concourse                     Highbridge                            37
-Mott Haven/Port Morris             East Tremont                          39
-University Heights/Morris Heights  University Heights/Morris Heights     40
-Melrose South                      Mott Haven/Port Morris                53
-Highbridge                         Highbridge                            70
-East Concourse/Concourse Village   East Concourse/Concourse Village      71
-West Concourse                     West Concourse                        79
-Melrose South                      Melrose South                         87
-Mott Haven/Port Morris             Mott Haven/Port Morris               199
+|PickupZone                       |  DropoffZone                      |   Count|
+|---------------------------------|---------------------------------|------|     
+|East Concourse/Concourse Village   |East Concourse/Concourse Village  |    71|
 
+|West Concourse                   |West Concourse                   |     79|
+
+|Melrose South                     |Melrose South                     |    87|
+
+|Mott Haven/Port Morris             |Mott Haven/Port Morris           |    199|
+
+|
 
 Looking at the following,we see that if driver stay in these area they can monopolies the area and earn the most money by trip by increasing the frequence .
 
