@@ -7,14 +7,24 @@ Due to current the Corona Virus.There has been no other market more damage then 
 
 Introduction & Objectives
 
+Data Set
 
-Data Collection & Joining
+Yellow taxi Data 2019 & 2020
+https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+Pickup/dropoff location data
+https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc
+
+Weather data collected from various sources 
+
+
+<b>Data Collection & Joining<b>
 
 
 Data Cleaning
+We developed 
 
 
-Feature Engineering
 
 
 Data Analysis
