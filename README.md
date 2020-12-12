@@ -39,6 +39,13 @@ Transposed numeric locations to location names
 Created new columns for durations and times
 Removed invalid data
 
+<b>Libraries Used</b>
+1. Pandas
+2. Numpy
+3. Seaborn
+4. SKLearn
+5. StreamLit
+
 
 <b>Data Analysis</b>
 
