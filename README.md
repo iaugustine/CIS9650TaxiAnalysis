@@ -58,7 +58,13 @@ Removed invalid data
 ![Time](https://user-images.githubusercontent.com/75762359/101990132-e8868380-3c72-11eb-81a5-43314e6d5fc5.png)
 
 
-Kindly refer to the powerpoint presentation for analysis.
+Location plays a key role in determining the tip. As seen from the chart, Manhattan still ranks the highest when it comes to tip, with Bronx and Brooklyn being the 2nd and the 3rd. If drivers want to avoid the fierce competition and terrible traffic in Manhattan, Brooklyn actually provides a greate overall environment. One thing to mention is that State Island, although the tip there is lower, a driver can still earn a decent amount of money through standard rate(2.5 dollars/mile) in the long distance drivings. 
+
+Temperature also affects the amount of tip received. Generally people are essentially paying more during cooler weathers, it's likely a result of people more willing to walk outside instead of taking a taxi.
+
+Weather is another factor that influences tipping behavior. During bad weather, people are usually more generous with taxi tips which is understandable in a sense that taxi becomes relatively a demand during bad weathers.
+
+The last factor is time. Generally tip during daytime is pretty consistent with lunch hour being the best time. Midnight to morning has relatively lower tips as the taxi activities also decrease significantly during this time.
 
 
 <b>Feature Engineering & Selection</b>
