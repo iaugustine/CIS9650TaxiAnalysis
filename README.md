@@ -30,15 +30,6 @@ It first used numeral location from in the pickup and drop off location and conv
 
 Based on the date, we use link the temperture of each date to the table.
 
-<b>Data Cleaning</b>
-
-NYC Taxi Data from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page <br>
-Data-mined weather data from https://www.noaa.gov/weather <br>
-Merged all data sources with pandas <br>
-Transposed numeric locations to location names<br>
-Created new columns for durations and times<br>
-Removed invalid data<br>
-
 <b>Libraries Used</b>
 1. Pandas
 2. Numpy
@@ -46,6 +37,16 @@ Removed invalid data<br>
 4. SKLearn
 5. StreamLit
 
+<b>Data Cleaning</b>
+For cleaning the data we found the following major irregulatiries:
+1. There were many records for which the total fare was negative.
+2. The tip amount for cash payment was negligible for almost all the records with only 19 records with a tip recorded for cash transactions.
+3. The data for total distance has wild outliers, which later affected the model performance.
+
+<b>Data Enriching</b>
+1. Based on the pickup and dropoff timestamps, we created separate columns for date, time, day of week, day of month, hour of day, minute of the hour.
+2. Create columns with ratios of existing features such as average fare per mile, tips per mile, etc.
+3. Converted existing contionous features into categorical variables. EG: Convert continous distances into bins such as short, medium, and long distances
 
 <b>Data Analysis & Insights</b>
 
