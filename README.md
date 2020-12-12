@@ -170,7 +170,7 @@ The below trip is the winner among all the boroughs as trip. 110 for one trip an
 Below looks like a other outliner.The rate doesn't match the rest and it only 1.2% of the pie
 |PickupZone                       |  DropoffZone                      |total_amount|trip_distance|
 |---------------------------------|:----------------------------------|------------|------------:|  
-|Coney Island              Brooklyn Navy Yard   |   9.680000 |  23.090000|
+|Coney Island              |Brooklyn Navy Yard   |   9.680000 |  23.090000|
 
 ![Staten_Island count ](https://user-images.githubusercontent.com/16584326/101990604-c5a99e80-3c75-11eb-9ff9-0a0ac3190901.png)
 
