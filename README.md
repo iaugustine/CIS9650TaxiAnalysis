@@ -1,44 +1,40 @@
 ![1](https://user-images.githubusercontent.com/16584326/101976413-0e7c3b80-3c13-11eb-87c8-513934739789.jpg)
 
 
-Due to current the Corona Virus.There has been no other market more damage then Taxi drive with 
+Due to current the Corona Virus,the taxi market has been decimated as New york was the one of the eariest hit by the virus.
 
 
 
-Introduction & Objectives
+<b>Introduction & Objectives</b>
 
-Data Set
-
-Yellow taxi Data 2019 & 2020
+<b>Data Set</b>
+We focu
+<b>Yellow taxi Data & 2020</b>
 https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-Pickup/dropoff location data
+<b>Pickup/dropoff location data</b>
 https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc
 
-Weather data collected from various sources 
+<b>Weather data collected from various sources </b>
+
+<b>Data Collection & Joining</b>
 
 
-<b>Data Collection & Joining<b>
+<b>Data Cleaning</b>
 
 
-Data Cleaning
-We developed 
+<b>Data Analysis</b>
 
 
+<b>Insights</b>
 
 
-Data Analysis
+<b>Feature Selection</b>
 
 
-Insights
+<b>Model Building</b>
 
 
-Feature Selection
-
-
-Model Building
-
-
-Deployment
+<b>Deployment</b>
 
 
