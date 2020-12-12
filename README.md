@@ -57,14 +57,128 @@ Removed invalid data
 
 ![Time](https://user-images.githubusercontent.com/75762359/101990132-e8868380-3c72-11eb-81a5-43314e6d5fc5.png)
 
+<b>The chance of cash payment in Manhattan is 0.3552647403799782<b>
+  
+<b>The following is the top 10 zone which can get paid by cash in Manhattan :<b>
+  
+<b>East Harlem North       0.606004<b>
+  
+<b>Central Harlem North    0.605387<b>
+  
+<b>Highbridge Park         0.600000<b>
+  
+<b>Manhattanville          0.574264<b>
+  
+<b>Hamilton Heights        0.569968<b>
+  
+<b>Marble Hill             0.560000<b>
+  
+<b>Central Harlem          0.539134<b>
+  
+<b>Chinatown               0.485114<b>
+  
+<b>East Harlem South       0.484915<b>
+  
+<b>Morningside Heights     0.484615<b>
 
-Location plays a key role in determining the tip. As seen from the chart, Manhattan still ranks the highest when it comes to tip, with Bronx and Brooklyn being the 2nd and the 3rd. If drivers want to avoid the fierce competition and terrible traffic in Manhattan, Brooklyn actually provides a greate overall environment. One thing to mention is that State Island, although the tip there is lower, a driver can still earn a decent amount of money through standard rate(2.5 dollars/mile) in the long distance drivings. 
+<b>The chance of cash payment in Bronx is 0.5647916192211342<b>
+  
+<b>The following is the top 10 zone which can get paid by cash in Bronx:<b>           
+  
+<b>Fordham South                         0.807018<b>
+  
+<b>Mott Haven/Port Morris                0.712150<b>
+  
+<b>Bronx Park                            0.700000<b>
+  
+<b>Melrose South                         0.692308<b>
+  
+<b>West Concourse                        0.680251<b>
+  
+<b>Bedford Park                          0.676768<b>
+  
+<b>Highbridge                            0.655629<b>
+  
+<b>East Concourse/Concourse Village      0.621875<b>
+  
+<b>Morrisania/Melrose                    0.616766<b>
+  
+<b>Mount Hope                            0.608696<b>
 
-Temperature also affects the amount of tip received. Generally people are essentially paying more during cooler weathers, it's likely a result of people more willing to walk outside instead of taking a taxi.
+<b>The chance of cash payment in Queens is 0.605137766728817<b>
+  
+<b>The following is the top 10 zone which can get paid by cash in Queens: <b>      
+  
+<b>Forest Park/Highland Park            1.000000<b>
+  
+<b>Saint Michaels Cemetery/Woodside     0.941176<b>
+  
+<b>Long Island City/Hunters Point       0.896220<b>
+  
+<b>Woodside                             0.803235<b>
+  
+<b>Astoria Park                         0.750000<b>
+  
+<b>Long Island City/Queens Plaza        0.741784<b>
+  
+<b>Sunnyside                            0.716279<b>
+  
+<b>Astoria                              0.714286<b>
+  
+<b>Elmhurst                             0.701220<b>
+  
+<b>Old Astoria                          0.693506<b>
 
-Weather is another factor that influences tipping behavior. During bad weather, people are usually more generous with taxi tips which is understandable in a sense that taxi becomes relatively a demand during bad weathers.
+<b>The chance of cash payment in Brooklyn is 0.3998106284767428<b>
+  
+<b>The following is the top 10 zone which can get paid by cash in Brooklyn:<b>     
+  
+<b>Marine Park/Floyd Bennett Field    0.666667<b>
+  
+<b>Brighton Beach                     0.650000<b>
+  
+<b>Manhattan Beach                    0.592593<b>
+  
+<b>Carroll Gardens                    0.588889<b>
+  
+<b>Williamsburg (South Side)          0.568000<b>
+  
+<b>Fort Greene                        0.538647<b>
+  
+<b>Greenpoint                         0.523256<b>
+  
+<b>ushwick South                      0.506383<b>
+  
+<b>Ocean Parkway South                0.500000<b>
+  
+<b>Clinton Hill                       0.495327<b>
 
-The last factor is time. Generally tip during daytime is pretty consistent with lunch hour being the best time. Midnight to morning has relatively lower tips as the taxi activities also decrease significantly during this time.
+<b>he chance of cash payment in Staten_Island is 0.4880952380952381<b>
+  
+<b>The following is the top 10 zone which can get paid by cash in Staten_Island: <b>   
+  
+<b>West Brighton                  1.000000<b>
+  
+<b>Stapleton                      1.000000<b>
+  
+<b>South Beach/Dongan Hills       1.000000<b>
+  
+<b>Oakwood                        1.000000<b>
+  
+<b>Heartland Village/Todt Hill    1.000000<b>
+  
+<b>Great Kills                    1.000000<b>
+  
+<b>Westerleigh                    0.800000<b>
+  
+<b>Arrochar/Fort Wadsworth        0.500000<b>
+  
+<b>Charleston/Tottenville         0.470588<b>
+  
+<b>New Dorp/Midland Beach         0.375000<b>
+
+
+Kindly refer to the powerpoint presentation for analysis.
 
 
 <b>Feature Engineering & Selection</b>
@@ -90,13 +204,17 @@ Going into each section by borough by borough we find the following:
 ![Bronx count](https://user-images.githubusercontent.com/16584326/101990282-16b89300-3c74-11eb-88dd-38d252ff528b.png)
 
 
-|PickupZone                       |  DropoffZone                      |  Count|
-|---------------------------------|:---------------------------------:|------:|     
-|East Concourse/Concourse Village |East Concourse/Concourse Village   |     71|
-|West Concourse                   |West Concourse                     |     79|
-|Melrose South                    |Melrose South                      |     87|
-|Mott Haven/Port Morris           |Mott Haven/Port Morris             |    199|
-
+PickupZone                         DropoffZone                         Count
+Mott Haven/Port Morris             Melrose South                         35
+West Concourse                     Highbridge                            37
+Mott Haven/Port Morris             East Tremont                          39
+University Heights/Morris Heights  University Heights/Morris Heights     40
+Melrose South                      Mott Haven/Port Morris                53
+Highbridge                         Highbridge                            70
+East Concourse/Concourse Village   East Concourse/Concourse Village      71
+West Concourse                     West Concourse                        79
+Melrose South                      Melrose South                         87
+Mott Haven/Port Morris             Mott Haven/Port Morris               199
 
 
 Looking at the following,we see that if driver stay in these area they can monopolies the area and earn the most money by trip by increasing the frequence .
