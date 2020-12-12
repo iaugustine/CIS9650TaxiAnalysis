@@ -97,7 +97,6 @@ Looking at the following,we see that if driver stay in these area they can monop
 
 ![bronx avg](https://user-images.githubusercontent.com/16584326/101990274-07394a00-3c74-11eb-8081-becdd1cc2d5e.png)
                                                          
-PickupZone                 DropoffZone                         total_amount  trip_distance
 
 |PickupZone                       |  DropoffZone                      |total_amount|trip_distance|
 |---------------------------------|:----------------------------------|------------|------------:|   
@@ -123,46 +122,55 @@ only 1.3% meaning the quantity of taxi taking that fare it low and this can be s
 
 
 The following are the main ones  taxi driver should focus.The the interesting thing is that  LaGuardia Airport and JFk are the main one not from coming from other regions but to each other.
-PickupZone                      DropoffZone                       count                      
-Astoria                         Astoria                            514
-JFK Airport                     JFK Airport                        691
-Queensbridge/Ravenswood         Queensbridge/Ravenswood            927
-Long Island City/Hunters Point  Long Island City/Hunters Point    1290
+
+
+|PickupZone                       |  DropoffZone                      |  Count|
+|---------------------------------|:---------------------------------:|------:|                          
+|Astoria                         |Astoria                            |514|
+|JFK Airport                     |JFK Airport                        |691|
+|Queensbridge/Ravenswood         |Queensbridge/Ravenswood            |927|
+|Long Island City/Hunters Point  |Long Island City/Hunters Point    |1290|
 
 
 ![queen avg](https://user-images.githubusercontent.com/16584326/101990391-d3125900-3c74-11eb-924e-3040541eba9d.png)
 
 Taking trip from the top three earn you close to $100 for a about an hour ride.Jamaica Bay to Howard Beach should be avoided as the money earn is not worth for the amount of driving.
-PickupZone                      DropoffZone              Total          trip 
-Hammels/Arverne                Murray Hill-Queens        92.6900        23.536667 
-Murray Hill-Queens             Hammels/Arverne           95.8400        25.810000
-Sunnyside                      Far Rockaway              93.6400        26.070000
-Jamaica Bay                    Howard Beach              78.0500        42.910000  
+
+|PickupZone                       |  DropoffZone                      |total_amount|trip_distance|
+|---------------------------------|:----------------------------------|------------|------------:|  
+|Hammels/Arverne                |Murray Hill-Queens       | 92.6900       | 23.536667 |
+|Murray Hill-Queens             |Hammels/Arverne         | 95.8400        |25.810000|
+|Sunnyside                     | Far Rockaway             | 93.6400       | 26.070000|
+|Jamaica Bay                   | Howard Beach             | 78.0500        |42.910000  |
 
 
 ![brooklyn count](https://user-images.githubusercontent.com/16584326/101990439-0bb23280-3c75-11eb-956b-bc1e371b41fa.png)
 
 
 The following are the main ones  taxi driver should focus.
-PickupZone                      DropoffZone                       count 
-Prospect-Lefferts Gardens       Prospect-Lefferts Gardens         81
-Canarsie                        Canarsie                          90
-Park Slope                      Park Slope                        91
- Crown Heights North         Crown Heights North                  131
-Fort Greene                     Fort Greene                        148
+
+|PickupZone                       |  DropoffZone                      |  Count|
+|---------------------------------|:---------------------------------:|------:|     
+|Prospect-Lefferts Gardens       |Prospect-Lefferts Gardens |        81|
+|Canarsie                       | Canarsie                  |        90|
+|Park Slope                     | Park Slope                  |      91|
+| Crown Heights North         |Crown Heights North             |     131|
+|Fort Greene                    | Fort Greene                 |       148|
 
 
 ![brooklyn avg](https://user-images.githubusercontent.com/16584326/101990456-153b9a80-3c75-11eb-803f-2e941de7da22.png)
 
 
 The below trip is the winner among all the boroughs as trip. 110 for one trip and make up for the shorter manhattan trips.
-PickupZone             DropoffZone              Total          trip 
-Carroll Gardens         Canarsie               110.465000  24.110000
+|PickupZone                       |  DropoffZone                      |total_amount|trip_distance|
+|---------------------------------|:----------------------------------|------------|------------:|  
+|Carroll Gardens     |    Canarsie           |    110.465000 | 24.110000
 
 
 Below looks like a other outliner.The rate doesn't match the rest and it only 1.2% of the pie
-PickupZone             DropoffZone              Total          trip 
-Coney Island              Brooklyn Navy Yard      9.680000   23.090000
+|PickupZone                       |  DropoffZone                      |total_amount|trip_distance|
+|---------------------------------|:----------------------------------|------------|------------:|  
+|Coney Island              Brooklyn Navy Yard   |   9.680000 |  23.090000|
 
 ![Staten_Island count ](https://user-images.githubusercontent.com/16584326/101990604-c5a99e80-3c75-11eb-9ff9-0a0ac3190901.png)
 
@@ -179,33 +187,34 @@ shorter trip to earn what appears to be more then normal.
 
 ![manhattan count](https://user-images.githubusercontent.com/16584326/101990720-29cc6280-3c76-11eb-9375-35b66c8d5307.png)
 
-PickupZone             DropoffZone          
-Upper West Side North  Upper West Side North    3504
-Yorkville West         Lenox Hill West          3539
-Upper East Side North  East Harlem South        3707
-Upper West Side South  Upper West Side North    3726
-Upper East Side North  Upper East Side South    4006
-Yorkville West         East Harlem South        4074
-Upper East Side South  Upper East Side North    4477
-Upper East Side North  Upper East Side North    4554
-East Harlem South      East Harlem South        4729
-                       East Harlem North        5307
+|PickupZone                       |  DropoffZone                      |  Count|       
+|Upper West Side North  |Upper West Side North    |3504|
+|Yorkville West         |Lenox Hill West         | 3539|
+|Upper East Side North|  East Harlem South       | 3707|
+|Upper West Side South | Upper West Side North   | 3726|
+|Upper East Side North | Upper East Side South   | 4006|
+|Yorkville West        | East Harlem South        |4074|
+|Upper East Side South | Upper East Side North   | 4477|
+|Upper East Side North | Upper East Side North    |4554|
+|East Harlem South     | East Harlem South       | 4729|
+|  East Harlem South                      | East Harlem North       | 5307|
                        
                        
 ![manhattan mean](https://user-images.githubusercontent.com/16584326/101990769-4bc5e500-3c76-11eb-854c-7ad9cb41fba2.png)
 
                                                
-PickupZone               DropoffZone              total_amount      trip_distance                      
-Financial District South Washington Heights North     50.065714      13.617143
-Financial District North Inwood                       49.578750      13.850000
-Midtown South            Marble Hill                  43.300000      13.850000
-Washington Heights South Financial District North     45.836667      13.964333
-Hudson Sq                Highbridge Park              48.300000      14.080000
-Financial District South Inwood                       44.525000      14.150000
-World Trade Center       Inwood                       52.560000      14.720000
-Midtown East             Inwood Hill Park             51.300000      16.320000
-Little Italy/NoLiTa      Inwood                       68.033333      17.010000
-Inwood Hill Park         Union Sq                     86.300000      26.620000
+|PickupZone                       |  DropoffZone                      |total_amount|trip_distance|
+|---------------------------------|:----------------------------------|------------|------------:|                     
+|Financial District South| Washington Heights North    | 50.065714  |    13.617143|
+|Financial District North |Inwood                      | 49.578750   |   13.850000|
+|Midtown South           | Marble Hill                |  43.300000   |   13.850000|
+|Washington Heights South |Financial District North  |  45.836667   |   13.964333|
+|Hudson Sq                |Highbridge Park            |  48.300000  |    14.080000|
+|Financial District South |Inwood                 |      44.525000    |  14.150000|
+|World Trade Center      | Inwood                   |    52.560000 |     14.720000|
+|Midtown East            | Inwood Hill Park         |    51.300000   |   16.320000|
+|Little Italy/NoLiTa     | Inwood                    |   68.033333  |    17.010000|
+|Inwood Hill Park        | Union Sq                   |  86.300000   |   26.620000
 
 Our original belief while doing this analysis  was that Mahattan would be the most overcharge but fell within range to the other borough without any major outliners.
 
