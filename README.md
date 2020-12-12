@@ -19,7 +19,8 @@ https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 Pickup/dropoff location data
 https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc
 
-Weather data collected from various sources 
+Weather data 
+https://www.noaa.gov/weather 
 
 <b>Data Collection & Joining</b>
 
@@ -31,9 +32,13 @@ Based on the date, we use link the temperture of each date to the table.
 
 <b>Data Cleaning</b>
 
-We removed any inconsistence data point/values,format the title of each column to remove spacing to make it easier to manipulate.
+NYC Taxi Data from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+Data-mined weather data from https://www.noaa.gov/weather 
+Merged all data sources with pandas 
+Transposed numeric locations to location names
+Created new columns for durations and times
+Removed invalid data
 
-Also,broke the time of the pickup and dropoff to the lowest point to ensure easier it was easier to proform math fucntions.
 
 <b>Data Analysis</b>
 
