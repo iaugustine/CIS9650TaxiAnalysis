@@ -48,14 +48,6 @@ Removed invalid data
 
 
 <b>Data Analysis & Insights</b>
-![Location](https://user-images.githubusercontent.com/75762359/101990056-7150ef80-3c72-11eb-9495-b3b69db3e678.png)
-
-![Temperature](https://user-images.githubusercontent.com/75762359/101990021-36e75280-3c72-11eb-9255-7dec201af5b9.png)
-
-![Weather Factor](https://user-images.githubusercontent.com/75762359/101989926-92fda700-3c71-11eb-9612-e428bb9dffe1.png)
-
-![Time](https://user-images.githubusercontent.com/75762359/101990132-e8868380-3c72-11eb-81a5-43314e6d5fc5.png)
-
 Kindly refer to the powerpoint presentation for analysis.
 
 
@@ -93,8 +85,11 @@ East Concourse/Concourse Village   East Concourse/Concourse Village      71
 West Concourse                     West Concourse                        79
 Melrose South                      Melrose South                         87
 Mott Haven/Port Morris             Mott Haven/Port Morris               199
-![bronx avg](https://user-images.githubusercontent.com/16584326/101990274-07394a00-3c74-11eb-8081-becdd1cc2d5e.png)
 
+
+Looking at the following,we see that if driver stay in these area they can monopolies the area and earn the most money by trip by increasing the frequence .
+
+![bronx avg](https://user-images.githubusercontent.com/16584326/101990274-07394a00-3c74-11eb-8081-becdd1cc2d5e.png)
 
 
 PickupZone                         DropoffZone                      
@@ -109,9 +104,6 @@ West Concourse                     West Concourse                        79
 Melrose South                      Melrose South                         87
 Mott Haven/Port Morris             Mott Haven/Port Morris               199
 Name: RatecodeID, dtype: int64
-
-Looking at the following,we see that if driver stay in these area they can monopolies the area and earn the most money by trip by increasing the frequence .
-
                                                          
 PickupZone                 DropoffZone                         total_amount  trip_distance        
 Spuyten Duyvil/Kingsbridge City Island                           36.800000   12.700000  
@@ -124,6 +116,7 @@ Van Cortlandt Park         Pelham Parkway                        64.170000   14.
 West Farms/Bronx River     Bronxdale                             54.300000   15.760000 
                            Spuyten Duyvil/Kingsbridge            59.850000   19.250000  
 Bronxdale                  University Heights/Morris Heights      8.800000   23.430000
+
 Compare to the other location,the average for these trip earned more for driving less by picking up on Van Cortlandt Park.
 
 With this,we notice that Bronxdale to University Heights Morris Heights has a average cost of  8.800000  but has 
@@ -131,7 +124,50 @@ a distance of 23.40 miles making you believe that there this trip is low but if 
 only 1.3% meaning the quantity of taxi taking that fare it low and this can be seem as an outliner.
 
 
+![queen count](https://user-images.githubusercontent.com/16584326/101990385-c8f05a80-3c74-11eb-99b4-9ed2540a6585.png)
 
+
+The following are the main ones  taxi driver should focus.The the interesting thing is that  LaGuardia Airport and JFk are the main one not from coming from other regions but to each other.
+PickupZone                      DropoffZone                       count                      
+Astoria                         Astoria                            514
+JFK Airport                     JFK Airport                        691
+Queensbridge/Ravenswood         Queensbridge/Ravenswood            927
+Long Island City/Hunters Point  Long Island City/Hunters Point    1290
+
+
+![queen avg](https://user-images.githubusercontent.com/16584326/101990391-d3125900-3c74-11eb-924e-3040541eba9d.png)
+
+Taking trip from the top three earn you close to $100 for a about an hour ride.Jamaica Bay to Howard Beach should be avoided as the money earn is not worth for the amount of driving.
+PickupZone                      DropoffZone              Total          trip 
+Hammels/Arverne                Murray Hill-Queens        92.6900        23.536667 
+Murray Hill-Queens             Hammels/Arverne           95.8400        25.810000
+Sunnyside                      Far Rockaway              93.6400        26.070000
+Jamaica Bay                    Howard Beach              78.0500        42.910000  
+
+
+![brooklyn count](https://user-images.githubusercontent.com/16584326/101990439-0bb23280-3c75-11eb-956b-bc1e371b41fa.png)
+
+
+The following are the main ones  taxi driver should focus.
+PickupZone                      DropoffZone                       count 
+Prospect-Lefferts Gardens       Prospect-Lefferts Gardens         81
+Canarsie                        Canarsie                          90
+Park Slope                      Park Slope                        91
+ Crown Heights North         Crown Heights North                  131
+Fort Greene                     Fort Greene                        148
+
+
+![brooklyn avg](https://user-images.githubusercontent.com/16584326/101990456-153b9a80-3c75-11eb-803f-2e941de7da22.png)
+
+
+The below trip is the winner among all the boroughs as trip. 110 for one trip and make up for the shorter manhattan trips.
+PickupZone             DropoffZone              Total          trip 
+Carroll Gardens         Canarsie               110.465000  24.110000
+
+
+Below looks like a other outliner.The rate doesn't match the rest and it only 1.2% of the pie
+PickupZone             DropoffZone              Total          trip 
+Coney Island              Brooklyn Navy Yard      9.680000   23.090000
 
 <b>Conclusion</b>
 Overall, our data analysis has shown that if a taxi driver wants to make the most cash and tips, he/she must do the following:
