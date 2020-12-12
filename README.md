@@ -21,14 +21,19 @@ https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc
 
 Weather data collected from various sources 
 
-
-
 <b>Data Collection & Joining</b>
 
 We ran a python script that allow use to combine the three data sources above into on major one.
 
+It first used numeral location from in the pickup and drop off location and converted it to the name using the Pickup/dropoff location data.
+
+Based on the date, we use link the temperture of each date to the table.
+
 <b>Data Cleaning</b>
 
+We removed any inconsistence data point/values,format the title of each column to remove spacing to make it easier to manipulate.
+
+Also,broke the time of the pickup and dropoff to the lowest point to ensure easier it was easier to proform math fucntions.
 
 <b>Data Analysis</b>
 
