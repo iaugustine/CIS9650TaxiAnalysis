@@ -13,13 +13,13 @@ Our mission today is to help the struggle taxi driver earn the most amount of mo
 
 <b>Data Set</b>
 
-<b>Yellow taxi Data & 2020</b>
+Yellow taxi Data & 2020
 https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-<b>Pickup/dropoff location data</b>
+Pickup/dropoff location data
 https://data.cityofnewyork.us/Transportation/NYC-Taxi-Zones/d3c5-ddgc
 
-<b>Weather data collected from various sources </b>
+Weather data collected from various sources 
 
 
 
