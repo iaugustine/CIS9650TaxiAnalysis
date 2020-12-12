@@ -57,14 +57,8 @@ Removed invalid data
 
 ![Time](https://user-images.githubusercontent.com/75762359/101990132-e8868380-3c72-11eb-81a5-43314e6d5fc5.png)
 
-Location plays a key role in determining the tip. As seen from the chart, Manhattan still ranks the highest when it comes to tip, with Bronx and Brooklyn being the 2nd and the 3rd. If drivers want to avoid the fierce competition and terrible traffic in Manhattan, Brooklyn actually provides a greate overall environment. One thing to mention is that State Island, although the tip there is lower, a driver can still earn a decent amount of money through standard rate(2.5 dollars/mile) in the long distance drivings. 
 
-Temperature also affects the amount of tip received. Generally people are essentially paying more during cooler weathers, it's likely a result of people more willing to walk outside instead of taking a taxi.
-
-Weather is another factor that influences tipping behavior. During bad weather, people are usually more generous with taxi tips which is understandable in a sense that taxi becomes relatively a demand during bad weathers.
-
-The last factor is time. Generally tip during daytime is pretty consistent with lunch hour being the best time. Midnight to morning has relatively lower tips as the taxi activities also decrease significantly during this time.
-
+Kindly refer to the powerpoint presentation for analysis.
 
 
 <b>Feature Engineering & Selection</b>
@@ -106,17 +100,17 @@ Looking at the following,we see that if driver stay in these area they can monop
 PickupZone                 DropoffZone                         total_amount  trip_distance
 
 |PickupZone                       |  DropoffZone                      |total_amount|trip_distance|
-|---------------------------------|:---------------------------------:|------------|------------:|   
-Spuyten Duyvil/Kingsbridge City Island                           36.800000   12.700000  
-Pelham Bay                 Spuyten Duyvil/Kingsbridge            43.550000   13.013333 
-Van Cortlandt Park         Parkchester                           62.910000   13.040000
-Spuyten Duyvil/Kingsbridge Pelham Bay                            42.383333   13.646667  
-Eastchester                Kingsbridge Heights                   43.383333   13.956667  
-                           Spuyten Duyvil/Kingsbridge            43.050000   14.200000 
-Van Cortlandt Park         Pelham Parkway                        64.170000   14.500000
-West Farms/Bronx River     Bronxdale                             54.300000   15.760000 
-                           Spuyten Duyvil/Kingsbridge            59.850000   19.250000  
-Bronxdale                  University Heights/Morris Heights      8.800000   23.430000
+|---------------------------------|:----------------------------------|------------|------------:|   
+|Spuyten Duyvil/Kingsbridge |City Island                              |36.800000   | 12.700000  
+|Pelham Bay                 |Spuyten Duyvil/Kingsbridge               |43.550000   | 13.013333 
+|Van Cortlandt Park         |Parkchester                              |62.910000   | 13.040000
+|Spuyten Duyvil/Kingsbridge |Pelham Bay                               |42.383333   |13.646667  
+|Eastchester                |Kingsbridge Heights                      |43.383333   |13.956667  
+|Eastchester                | Spuyten Duyvil/Kingsbridge              | 43.050000  | 14.200000 
+|Van Cortlandt Park         |Pelham Parkway                           |64.170000   |14.500000
+|West Farms/Bronx River     |Bronxdale                                |54.300000   |15.760000 
+|West Farms/Bronx River     |Spuyten Duyvil/Kingsbridge               |59.850000   |19.250000  
+|Bronxdale                  |University Heights/Morris Heights        | 8.800000   |23.430000
 
 Compare to the other location,the average for these trip earned more for driving less by picking up on Van Cortlandt Park.
 
