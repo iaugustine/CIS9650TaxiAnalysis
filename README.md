@@ -47,10 +47,7 @@ Removed invalid data
 5. StreamLit
 
 
-<b>Data Analysis</b>
-
-
-<b>Insights</b>
+<b>Data Analysis & Insights</b>
 
 
 <b>Feature Engineering & Selection</b>
