@@ -32,12 +32,12 @@ Based on the date, we use link the temperture of each date to the table.
 
 <b>Data Cleaning</b>
 
-NYC Taxi Data from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-Data-mined weather data from https://www.noaa.gov/weather 
-Merged all data sources with pandas 
-Transposed numeric locations to location names
-Created new columns for durations and times
-Removed invalid data
+NYC Taxi Data from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page <br>
+Data-mined weather data from https://www.noaa.gov/weather <br>
+Merged all data sources with pandas <br>
+Transposed numeric locations to location names<br>
+Created new columns for durations and times<br>
+Removed invalid data<br>
 
 <b>Libraries Used</b>
 1. Pandas
